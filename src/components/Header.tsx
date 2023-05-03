@@ -5,5 +5,5 @@ type HeaderProps = {
 };
 
 export default function Header({ children }: HeaderProps) {
-   return <div>{children}</div>;
+   return <div className="relative top-[-60px]">{children}</div>;
 }
