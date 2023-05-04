@@ -9,7 +9,7 @@ const navItems: MenuItemProps[] = [
       route: '/'
    },
    {
-      text: 'Repos',
+      text: 'Repos JS',
       route: '/repos'
    },
    {

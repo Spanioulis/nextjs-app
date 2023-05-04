@@ -1,6 +1,6 @@
-import navItems from '@/data/navbarLinks';
-import Link from 'next/link';
+import navItems from '@/data/navbarItems';
 import { Nothing_You_Could_Do } from 'next/font/google';
+import NavbarLink from '../components/NavbarLink';
 
 const nothingYouFont = Nothing_You_Could_Do({
    weight: '400',
@@ -16,9 +16,7 @@ export default function NavBar() {
                   <h1 className={nothingYouFont.className}>Spanioulis</h1>
                </li>
                {navItems.map((item) => (
-                  <li key={item.route} className="hover:text-white text-white/70 transition-all duration-300 py-4">
-                     <Link href={item.route}>{item.text}</Link>
-                  </li>
+                  <NavbarLink item={item} key={item.route} />
                ))}
             </ul>
          </nav>
