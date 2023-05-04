@@ -9,8 +9,8 @@ const navItems: MenuItemProps[] = [
       route: '/'
    },
    {
-      text: 'About',
-      route: '/about'
+      text: 'Repos',
+      route: '/repos'
    },
    {
       text: 'News',
@@ -18,4 +18,7 @@ const navItems: MenuItemProps[] = [
    }
 ];
 
+const activeClass = 'hover:text-white text-white/70 transition-all duration-300 py-4 scale-105 font-bold';
+
 export default navItems;
+export { activeClass };
