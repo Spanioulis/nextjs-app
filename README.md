@@ -1,6 +1,10 @@
 # Next.js - Demo
-![home](https://user-images.githubusercontent.com/97700906/235970778-56a2135d-3452-4f73-9f65-0a5649df7e71.PNG)
+
+### Home
+![home](https://user-images.githubusercontent.com/97700906/236164419-b87fc2f5-96d0-4db3-9bfc-62fccd0f959b.PNG)
+### About
 ![about](https://user-images.githubusercontent.com/97700906/235970780-3d703667-639a-427a-bdf8-8ab78c553b9f.PNG)
+### News
 ![news](https://user-images.githubusercontent.com/97700906/235970772-f9e57856-a8f8-4a2d-ac7c-cc3527177eef.PNG)
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
