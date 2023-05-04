@@ -5,9 +5,9 @@ export default function News() {
    return (
       <div>
          <Header>
-            <div className="bg-selva-amazonas h-screen bg-no-repeat bg-center bg-cover"></div>
+            <div className="bg-selva-amazonas h-[554px] bg-no-repeat bg-center bg-cover mb-[-60px]"></div>
          </Header>
-         <Footer>Footer News</Footer>
+         <Footer />
       </div>
    );
 }

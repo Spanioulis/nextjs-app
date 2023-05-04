@@ -5,15 +5,15 @@ type MenuItemProps = {
 
 const navItems: MenuItemProps[] = [
    {
-      text: 'HOME',
+      text: 'Home',
       route: '/'
    },
    {
-      text: 'ABOUT',
+      text: 'About',
       route: '/about'
    },
    {
-      text: 'NEWS',
+      text: 'News',
       route: '/news'
    }
 ];
