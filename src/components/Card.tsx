@@ -11,18 +11,18 @@ export default function Card({ repo, index }: CardProps) {
    return (
       <article
          key={repo.id}
-         className="text-black border-[1px] border-gray-400/40 rounded-sm px-2 backdrop-blur-lg h-[175px] w-[225px] flex justify-around flex-col hover:scale-105"
+         className="relative flex h-[175px] w-[225px] flex-col justify-around rounded-md bg-black/50 px-2 text-white transition-all duration-300 ease-in hover:scale-105"
       >
          <p
-            className="self-start w-4 p-[1px] text-gray-200/70 font-semibold"
+            className="w-4 self-start p-[1px] font-semibold text-gray-200/70"
             style={{ textShadow: '8px 10px 10px rgba(0, 0, 0, 0.6' }}
          >
             {index + 1}
          </p>
-         <h2 className="uppercase font-semibold text-xl text-stone-800">{repo.name}</h2>
+         <h2 className="text-xl font-medium uppercase">{repo.name}</h2>
          <div className="flex justify-center">
             <Link
-               className="rounded-full shadow-xl shadow-black-800 p-3 max-w-fit cursor-pointer hover:scale-110 ease-in duration-300"
+               className="shadow-black-800 max-w-fit cursor-pointer rounded-full p-3 shadow-xl duration-300 ease-in hover:scale-110"
                href={repo.html_url}
                target="_blank"
                rel="noopener noreferrer"
@@ -38,7 +38,7 @@ export default function Card({ repo, index }: CardProps) {
                day: 'numeric'
             })}
          </p>
-         <p className="text-[10px] self-end">
+         <p className="self-end text-[10px]">
             <i>Tamaño</i>: {repo.size}
          </p>
       </article>

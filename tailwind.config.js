@@ -15,8 +15,10 @@ module.exports = {
             'np-petra': "url('/assets/petra.png')",
             'selva-amazonica': "url('/assets/selva-amazonica.png')",
             'neuronal-grid': "url('/assets/neuronal-grid.png')",
+            'tulipan-amarillo': "url('/assets/tulipan-amarillo.png')",
             'banco-peces': "url('/assets/banco-peces.png')",
-            'tulipan-amarillo': "url('/assets/tulipan-amarillo.png')"
+            'blue-wall': "url('/assets/blue-wall.png')",
+            'yellow-wall': "url('/assets/yellow-wall.png')"
          }
       }
    },

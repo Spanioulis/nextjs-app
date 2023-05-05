@@ -14,11 +14,11 @@ export default async function ReposTypeScript() {
    return (
       <div>
          <Header>
-            <section className="bg-banco-peces bg-no-repeat bg-center bg-cover mb-[-60px] flex flex-col text-center pt-20 gap-6 px-10 pb-10">
+            <section className="mb-[-60px] flex h-screen flex-col gap-6 bg-blue-wall bg-cover bg-center bg-no-repeat px-10 pb-10 pt-28 text-center">
                <div>
-                  <h1 className="text-white/70 font-extrabold text-3xl">Repositorios TypeScript</h1>
+                  <h1 className="mb-6 text-3xl font-extrabold text-white/95">Repositorios TypeScript</h1>
                </div>
-               <div className="flex flex-wrap gap-10 justify-around">
+               <div className="flex flex-wrap justify-around gap-10">
                   {repos.filter(filterTypeScript).map((repo: Repository, index: number) => {
                      return <Card repo={repo} key={repo.id} index={index} />;
                   })}
