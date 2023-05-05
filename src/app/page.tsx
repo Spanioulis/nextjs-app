@@ -6,7 +6,7 @@ export default function Home() {
       <div>
          <Header>
             <div className="bg-neuronal-grid h-[554px] bg-no-repeat bg-center bg-cover mb-[-60px] pt-[100px]">
-               PRUEBAAAAAA
+               Estamos en la home
             </div>
          </Header>
          <Footer />

@@ -9,12 +9,12 @@ const navItems: MenuItemProps[] = [
       route: '/'
    },
    {
-      text: 'Repos JS',
-      route: '/repos'
+      text: 'JavaScript',
+      route: '/repos-javascript'
    },
    {
-      text: 'News',
-      route: '/news'
+      text: 'TypeScript',
+      route: '/repos-javascript'
    }
 ];
 
