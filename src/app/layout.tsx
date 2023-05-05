@@ -3,7 +3,7 @@ import NavBar from '@/app/NavBar';
 import { Roboto } from 'next/font/google';
 
 export const metadata = {
-   title: 'Next.js - Project',
+   title: 'GitHub Repositories',
    description: 'Created with Next.js by Spanioulis'
 };
 

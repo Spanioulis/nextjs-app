@@ -11,7 +11,7 @@ export default function Card({ repo, index }: CardProps) {
    return (
       <article
          key={repo.id}
-         className="text-black border-[1px] border-gray-400/40 rounded-sm px-2 backdrop-blur-lg h-[150px] w-[225px] flex justify-around flex-col hover:scale-105"
+         className="text-black border-[1px] border-gray-400/40 rounded-sm px-2 backdrop-blur-lg h-[175px] w-[225px] flex justify-around flex-col hover:scale-105"
       >
          <p
             className="self-start w-4 p-[1px] text-gray-200/70 font-semibold"
