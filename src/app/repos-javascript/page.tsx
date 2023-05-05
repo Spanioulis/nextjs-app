@@ -1,6 +1,7 @@
 import Card from '@/components/Card';
 import Footer from '@/components/Footer';
 import Header from '@/components/Header';
+import { filterJavaScript } from '@/data/filterLanguage';
 import { Repository } from '@/data/types';
 
 const fetchRepos = () => {
@@ -20,11 +21,9 @@ export default async function ReposJavaScript() {
                   <h1 className="text-yellow-500/80 font-extrabold text-3xl">Repositorios JavaScript</h1>
                </div>
                <div className="flex flex-wrap gap-10 justify-around">
-                  {repos
-                     .filter((repo: Repository) => repo.language === 'JavaScript')
-                     .map((repo: Repository) => {
-                        return <Card repo={repo} key={repo.id} />;
-                     })}
+                  {repos.filter(filterJavaScript).map((repo: Repository) => {
+                     return <Card repo={repo} key={repo.id} />;
+                  })}
                </div>
             </section>
          </Header>
