@@ -17,7 +17,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <html lang="en">
          <body>
             <NavBar />
-            <main className={roboto.className}>{children}</main>
+            <main className={`${roboto.className} max-h-screen`}>{children}</main>
          </body>
       </html>
    );
