@@ -8,21 +8,19 @@ const fetchRepos = () => {
    return fetch('https://api.github.com/users/Spanioulis/repos').then((res) => res.json());
 };
 
-type ReposProps = {};
-
 export default async function ReposJavaScript() {
    const repos = await fetchRepos();
 
    return (
       <div>
          <Header>
-            <section className="bg-np-petra bg-no-repeat bg-center bg-cover mb-[-60px] flex flex-col text-center pt-20 gap-10 px-10 pb-10">
+            <section className="bg-np-petra bg-no-repeat bg-center bg-cover mb-[-60px] flex flex-col text-center pt-20 gap-6 px-10 pb-10">
                <div>
                   <h1 className="text-yellow-500/80 font-extrabold text-3xl">Repositorios JavaScript</h1>
                </div>
                <div className="flex flex-wrap gap-10 justify-around">
-                  {repos.filter(filterJavaScript).map((repo: Repository) => {
-                     return <Card repo={repo} key={repo.id} />;
+                  {repos.filter(filterJavaScript).map((repo: Repository, index: number) => {
+                     return <Card repo={repo} key={repo.id} index={index} />;
                   })}
                </div>
             </section>
