@@ -38,9 +38,19 @@ export default function Card({ repo, index }: CardProps) {
                day: 'numeric'
             })}
          </p>
-         <p className="self-end text-[10px]">
-            <i>Tamaño</i>: {repo.size}
-         </p>
+         <div className="flex flex-row justify-between">
+            <p className="self-end text-[10px]">
+               <i>Act.</i>:{' '}
+               {new Date(repo.pushed_at).toLocaleDateString('es-ES', {
+                  year: 'numeric',
+                  month: 'long',
+                  day: 'numeric'
+               })}
+            </p>
+            <p className="self-end text-[10px]">
+               <i>Tamaño</i>: {repo.size}
+            </p>
+         </div>
       </article>
    );
 }
