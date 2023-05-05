@@ -12,9 +12,11 @@ module.exports = {
          backgroundImage: {
             'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
             'gradient-conic': 'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-            'np-petra': "url('/assets/np-petra.png')",
+            'np-petra': "url('/assets/petra.png')",
+            'selva-amazonica': "url('/assets/selva-amazonica.png')",
             'neuronal-grid': "url('/assets/neuronal-grid.png')",
-            'selva-amazonas': "url('/assets/selva-amazonica.png')"
+            'banco-peces': "url('/assets/banco-peces.png')",
+            'tulipan-amarillo': "url('/assets/tulipan-amarillo.png')"
          }
       }
    },

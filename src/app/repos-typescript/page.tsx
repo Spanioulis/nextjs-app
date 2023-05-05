@@ -14,9 +14,9 @@ export default async function ReposTypeScript() {
    return (
       <div>
          <Header>
-            <section className="bg-selva-amazonas bg-no-repeat bg-center bg-cover mb-[-60px] flex flex-col text-center pt-20 gap-6 px-10 pb-10">
+            <section className="bg-banco-peces bg-no-repeat bg-center bg-cover mb-[-60px] flex flex-col text-center pt-20 gap-6 px-10 pb-10">
                <div>
-                  <h1 className="text-yellow-500/80 font-extrabold text-3xl">Repositorios TypeScript</h1>
+                  <h1 className="text-white/70 font-extrabold text-3xl">Repositorios TypeScript</h1>
                </div>
                <div className="flex flex-wrap gap-10 justify-around">
                   {repos.filter(filterTypeScript).map((repo: Repository, index: number) => {

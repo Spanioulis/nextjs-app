@@ -14,9 +14,9 @@ export default async function ReposJavaScript() {
    return (
       <div>
          <Header>
-            <section className="bg-np-petra bg-no-repeat bg-center bg-cover mb-[-60px] flex flex-col text-center pt-20 gap-6 px-10 pb-10">
+            <section className="bg-tulipan-amarillo bg-no-repeat bg-center bg-cover mb-[-60px] flex flex-col text-center pt-20 gap-6 px-10 pb-10">
                <div>
-                  <h1 className="text-yellow-500/80 font-extrabold text-3xl">Repositorios JavaScript</h1>
+                  <h1 className="text-white/70 font-bold text-3xl">Repositorios JavaScript</h1>
                </div>
                <div className="flex flex-wrap gap-10 justify-around">
                   {repos.filter(filterJavaScript).map((repo: Repository, index: number) => {
