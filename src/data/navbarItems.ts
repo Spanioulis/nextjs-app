@@ -14,7 +14,7 @@ const navItems: MenuItemProps[] = [
    },
    {
       text: 'TypeScript',
-      route: '/repos-javascript'
+      route: '/repos-typescript'
    }
 ];
 
