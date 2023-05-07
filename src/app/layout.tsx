@@ -15,9 +15,9 @@ const roboto = Roboto({
 export default function RootLayout({ children }: { children: React.ReactNode }) {
    return (
       <html lang="en">
-         <body>
+         <body className="scroll">
             <NavBar />
-            <main className={`${roboto.className} max-h-screen`}>{children}</main>
+            <main className={roboto.className}>{children}</main>
          </body>
       </html>
    );
