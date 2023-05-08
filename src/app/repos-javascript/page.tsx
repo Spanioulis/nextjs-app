@@ -2,6 +2,7 @@ import Card from '@/components/Card';
 import Footer from '@/components/Footer';
 import Header from '@/components/Header';
 import { filterJavaScript } from '@/data/filterLanguage';
+import { byUpdate } from '@/data/sortUpdated';
 import { Repository } from '@/data/types';
 
 const fetchRepos = () => {
@@ -10,6 +11,7 @@ const fetchRepos = () => {
 
 export default async function ReposJavaScript() {
    const repos = await fetchRepos();
+   repos.sort(byUpdate);
 
    return (
       <div>
