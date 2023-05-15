@@ -6,7 +6,7 @@ import { byUpdate } from '@/data/sortUpdated';
 import { Repository } from '@/data/types';
 
 const fetchRepos = () => {
-   return fetch('https://api.github.com/users/Spanioulis/repos').then((res) => res.json());
+   return fetch('https://api.github.com/users/Spanioulis/repos', { cache: 'no-store' }).then((res) => res.json());
 };
 
 export default async function ReposTypeScript() {
