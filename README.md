@@ -11,12 +11,14 @@ Proyecto realizado con Next.js (React & TypeScript) y maquetado con TailwindCSS.
 
 Este proyecto usa [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) para optimizar y cargar automáticamente *Roboto*, una fuente personalizada de Google, y *Nothing_You_Could_Do*.
 
-![home](https://user-images.githubusercontent.com/97700906/236164419-b87fc2f5-96d0-4db3-9bfc-62fccd0f959b.PNG)
+[github-repos.webm](https://github.com/Spanioulis/repos-github-nextjs/assets/97700906/f63518e7-ec28-439b-91c9-595c4ce623f0)
+
 
 ### Repositorios JavaScript
 ![repos-js](https://user-images.githubusercontent.com/97700906/236756681-aeac0aaa-64a4-4e11-a31f-436942bace8d.PNG)
 
 ### Repositorios TypeScript
+
 ![repos-ts](https://user-images.githubusercontent.com/97700906/236756675-1da8a0ec-4c8f-4f3d-b473-dd45497413d6.PNG)
 
 ## Instalación
